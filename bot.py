@@ -45,7 +45,8 @@ async def start_handler(event):
             f"⏳ Your existing active links:\n\n"
             f"1️⃣ Group 1 → {g1}\n"
             f"2️⃣ Group 2 → {g2}\n\n"
-            f"⛔ Wait until both links expire for new ones."
+            f"⛔ Wait until both links expire for new ones.",
+            link_preview=False
         )
 
     # Create two links
@@ -61,7 +62,8 @@ async def start_handler(event):
         f"🔥 H2I Private Invite Links (Valid 3 min)\n\n"
         f"1️⃣ File Group Link:\n{link1}\n\n"
         f"2️⃣ O*TP Group Link:\n{link2}\n\n"
-        f"⚠️ Fast Join Link Valid Only 3 Minutes."
+        f"⚠️ Fast Join Link Valid Only 3 Minutes.",
+        link_preview=False
     )
 
 print("Bot running with DUAL TOPIC INVITE SYSTEM 🚀")
